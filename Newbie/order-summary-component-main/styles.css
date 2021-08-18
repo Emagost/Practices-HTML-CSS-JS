@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+*{
+    font-family: "Red Hat Display",sans-serif;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:hsl(225, 100%, 94%);
+}
+
+.Content img{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.Content{
+    background-color:rgb(255,255,255);
+    width:28.01rem;
+    height:45rem;
+    margin:5rem auto;
+    border-radius: 1rem;
+    box-shadow: 1px -2px 17px -2px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 1px -2px 17px -2px rgba(0,0,0,0.68);
+    -moz-box-shadow: 1px -2px 17px -2px rgba(0,0,0,0.68);
+}
+.Content__title{
+    display:flex;
+    font-weight:900;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin:2rem;
+}
+.Content__text{
+    margin-bottom:1.5rem;
+    margin-left:5rem;
+    margin-right: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.Content__annual-plan{
+    background-color:rgb(248, 249, 254);
+    display:flex;
+    padding:0.2rem;
+    margin:2rem;
+    border-radius: 0.4rem;
+    justify-content:space-between;
+}
+.Content__music-img{
+    margin:0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.Content__plan{
+    font-weight: bolder;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 2rem;
+}
+.Content__change{
+    font-weight: bolder;
+    text-decoration: underline;
+    color:hsl(245, 75%, 52%);
+    display:inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 4rem;
+    margin-right: 2rem;
+}
+.Content__change:hover{
+    cursor: pointer;
+}
+.Content__pay{
+    background-color:hsl(245, 75%, 52%);
+    padding:1rem;
+    margin-left:3rem;
+    margin-right: 3rem;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    border-radius:0.8rem;
+    box-shadow: 1px -2px 10px -2px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 1px -2px 10px -2px rgba(0,0,0,0.68);
+    -moz-box-shadow: 1px -2px 10px -2px rgba(0,0,0,0.68);
+}
+.Content__pay:hover{
+    cursor: pointer;
+}
+.Content__cancel{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:2rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+.Content__cancel:hover{
+    cursor: pointer;
+}
+.attribution{
+    align-items: flex-end;
+    justify-content: center;
+}
