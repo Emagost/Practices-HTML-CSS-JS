@@ -54,11 +54,13 @@ body{
     justify-content:center;
 }
 .Content__plan{
-    font-weight: bolder;
     justify-content:center;
     align-items: center;
     margin-right: 2rem;
     margin-top: 1rem;
+}
+.Content__plan__annual{
+    font-weight: bolder;
 }
 .Content__plan__price{
     font-weight: normal;
